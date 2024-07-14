@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="panier" content="width=device-width, initial-scale=1.0">
+  <title>Panier | Shield For Rhino</title>
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/panier.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <nav class="navbar">
+      <div class="navLeft">
+        <a href="index.html"><img src="./img/SHIELD FOR RHINO.png" alt="logo-header"></a>
+      </div>
+      <div class="navMid">
+        <li>
+          <span>A la une</span>
+        </li>
+        <li>
+          <span>Appareils</span>
+        </li>
+        <li>
+          <span>Produits</span>
+        </li>
+        <li>
+          <span>Personnalisation</span>
+        </li>
+        <li>
+          <span>Blog</span>
+        </li>
+      </div>
+      <div class="navRight">
+        <a href="./panier.html">
+          <img src="./img/panier-header.svg" alt="">
+        </a>
+        <a href="./login.html">
+          <img src="./img/compte-header.svg" alt="">
+        </a>
+        <a>
+          <img src="./img/search-header.svg" alt="">
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="menu_overlay">
+        <div class="menu_overlay_top">
+
+          <img class="fas fa-times" src="img/fermer.png" width="32px">
+          <div class="imgMob">
+            <a href="index.html"><img src="./img/SHIELD FOR RHINO.png" width="180px; margin-left: 20px"></a>
+          </div>
+
+          <div class="navRightMob">
+            <a id="panier" href="./panier.html">
+              <img src="./img/panier-header.svg" alt="">
+            </a>
+            <a href="./login.html">
+              <img src="./img/compte-header.svg" alt="">
+            </a>
+          </div>
+
+        </div>
+
+        <ul class="list">
+          <div class="search-bar">
+            <input type="text" id="search">
+            <img src="img/loupe-arrondie.png" width="22px">
+          </div>
+          <li id="Une"><a href="#">A la une</a></li>
+          <li><a href="#">Appareils</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Personnalisation</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="landing_page">
+        <div class="menu">
+          <img class="fas fa-bars" src="img/bar.png" width="32px">
+        </div>
+
+        <div class="imgMob">
+          <a href="index.html"><img src="./img/SHIELD FOR RHINO.png" width="180px; margin-left: 20px"></a>
+        </div>
+
+        <div class="navRightMob">
+          <a id="panier" href="./panier.html">
+            <img src="./img/panier-header.svg" alt="">
+          </a>
+          <a href="./login.html">
+            <img src="./img/compte-header.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="panier">
+      <h1 class="tete tout" id="titre">Votre Panier</h1>
+      <span class="tete tout"></span>
+      <h2 class="tete tout" id="prix">Prix</h2>
+      <h2 class="tete tout" id="quantité">Quantité</h2>
+      <h3 class="tete tout" id="paniervide">Vider le panier</h3>
+      <div class="l1 tout" id="img1">
+        <img class="img" src="img/img-product/img-product-rhinocéros_7.jpeg">
+      </div>
+      <p class="l1 tout" id="description1"> Armure (Dorée), armure corps entier tête et corne inclus </p>
+      <p class="l1 tout" id="prix1"> 4 500 € TTC</p>
+      <p class="l1 tout" id="qté1"> 1 </p>
+      <div class="l1 tout" id="croix1">
+        <img class="croix" src="img/fermer.png">
+      </div>
+      <div class="l2 tout" id="img2">
+        <img class="img" src="img/img-product/img-product-rhinocéros_1.jpg">
+      </div>
+      <p class="l2 tout" id="description2"> Armure (Argentée), armure corps entier tête et corne inclus </p>
+      <p class="l2 tout" id="prix2"> 3 200 € TTC</p>
+      <p class="l2 tout" id="qté2"> 1 </p>
+      <div class="l2 tout" id="croix2">
+        <img class="croix" src="img/fermer.png">
+      </div>
+    </div>
+    <div class="commande">
+      <div id="livraison">
+        <textarea
+          placeholder="Vous recevrez les produits comme indiqués ci-dessus et dans votre email de confirmation. Pour toute autre demande concernant votre commande, nous vous invitons à contacter notre support via notre page de contact AVANT que nous commencions la préparation de votre commande."
+          rows="8" cols="75"></textarea>
+      </div>
+      <div id="paiement">
+        <div id="total">
+          <p> Prix </p>
+          <p> 7 700 € TTC</p>
+          <p class="bas"> Livraison </p>
+          <p class="bas"> Les frais de port seront calculé lors du paiment </p>
+        </div>
+        <div id="fin">
+          <textarea placeholder="Code Promo" rows="2" cols="25"></textarea>
+          <div class="button">
+            <button id="appliquer"> Appliquer </button>
+          </div>
+          <p>Total</p>
+          <p>7 700 € TTC</p>
+          <div class="button">
+            <button id="autres"> <a href="index.html"> Voir d'autres Produits</a> </button>
+          </div>
+          <div class="button">
+            <button id="jecommande"> Je commande ! </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="panierVide">
+    <h1>Le panier est vide</h1>
+    <a href="index.html">
+      <p>Cliquez ici pour voir nos produits</p>
+    </a>
+  </div>
+
+  <script src="js/header.js"></script>
+  <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <script src="https://kit.fontawesome.com/5f815496d7.js" crossorigin="anonymous"></script>
+  <script src="js/panier.js"></script>
+</body>
+
+</html>

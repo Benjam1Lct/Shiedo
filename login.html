@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <nav class="navbar">
+      <div class="navLeft">
+        <a href="index.html"><img src="./img/SHIELD FOR RHINO.png" alt="logo-header"></a>
+      </div>
+      <div class="navMid">
+        <li>
+          <span>A la une</span>
+        </li>
+        <li>
+          <span>Appareils</span>
+        </li>
+        <li>
+          <span>Produits</span>
+        </li>
+        <li>
+          <span>Personnalisation</span>
+        </li>
+        <li>
+          <span>Blog</span>
+        </li>
+      </div>
+      <div class="navRight">
+        <a href="./panier.html">
+          <img src="./img/panier-header.svg" alt="">
+        </a>
+        <a href="./login.html">
+          <img src="./img/compte-header.svg" alt="">
+        </a>
+        <a>
+          <img src="./img/search-header.svg" alt="">
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="menu_overlay">
+        <div class="menu_overlay_top">
+
+          <img class="fas fa-times" src="img/fermer.png" width="32px">
+          <div class="imgMob">
+            <a href="index.html"><img src="./img/SHIELD FOR RHINO.png" width="180px; margin-left: 20px"></a>
+          </div>
+
+          <div class="navRightMob">
+            <a id="panier" href="./panier.html">
+              <img src="./img/panier-header.svg" alt="">
+            </a>
+            <a href="./login.html">
+              <img src="./img/compte-header.svg" alt="">
+            </a>
+          </div>
+
+        </div>
+
+        <ul class="list">
+          <div class="search-bar">
+            <input type="text" id="search">
+            <img src="img/loupe-arrondie.png" width="22px">
+          </div>
+          <li id="Une"><a href="#">A la une</a></li>
+          <li><a href="#">Appareils</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Personnalisation</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="landing_page">
+        <div class="menu">
+          <img class="fas fa-bars" src="img/bar.png" width="32px">
+        </div>
+
+        <div class="imgMob">
+          <a href="index.html"><img src="./img/SHIELD FOR RHINO.png" width="180px; margin-left: 20px"></a>
+        </div>
+
+        <div class="navRightMob">
+          <a id="panier" href="./panier.html">
+            <img src="./img/panier-header.svg" alt="">
+          </a>
+          <a href="./login.html">
+            <img src="./img/compte-header.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="login">
+    <div class="wrapper">
+      <div class="form-wrapper sign-in">
+        <form action="">
+          <h2>Connectez-vous</h2>
+          <div class="input-group">
+            <input type="text" required>
+            <label id="text-label" for="text">Identifiant</label>
+          </div>
+          <div class="input-group">
+            <input type="password" required>
+            <label id="password-label" for="password">Mot de passe</label>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox"> Se souvenir de moi</label>
+          </div>
+          <button type="submit">Se connecter</button>
+          <div class="signUp-link">
+            <p>Vous n'êtes pas inscris?
+              <a href="#" class="signUpBtn-link">Inscrivez-vous</a>
+            </p>
+          </div>
+          <div class="social-platform">
+            <p>Ou se connecter avec</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-google"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+      <div class="form-wrapper sign-up">
+        <form action="">
+          <h2>Inscrivez-vous</h2>
+          <div class="input-group">
+            <input type="text" required>
+            <label id="text-label-create" for="text">Nom d'utilisateur</label>
+          </div>
+          <div class="input-group">
+            <input type="email" required>
+            <label id="email-label-create" for="">Email</label>
+          </div>
+          <div class="input-group">
+            <input type="password" required>
+            <label id="password-label-create" for="">Mot de passe</label>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox"> J'accepte les termes et les conditions</label>
+          </div>
+          <button type="submit">S'inscrire</button>
+          <div class="signUp-link">
+            <p>déjà un compte?
+              <a href="#" class="signInBtn-link">Connectez-vous</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container-footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>À propos de nous</h4>
+          <ul>
+            <li><a href="#">À propos de nous</li>
+            <li><a href="#">Trouver un magasin</li>
+            <li><a href="#">Développement durable</li>
+            <li><a href="#">Science des matériaux</li>
+            <li><a href="#">Soutien à la communauté LGBTQ+</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">FAQ</li>
+            <li><a href="#">Support produit</li>
+            <li><a href="#">Contactez-nous</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Mentions légales</h4>
+          <ul>
+            <li><a href="#">Conditions générales de vente</li>
+            <li><a href="#">Confidentialité des données</li>
+            <li><a href="#">Iformations légales</li>
+            <li><a href="#">Gérer vos données</li>
+            <li><a href="#">Propriété intellectuelle</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <script src="js/header.js"></script>
+  <script src="js/login.js"></script>
+
+  <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <script src="https://kit.fontawesome.com/5f815496d7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
